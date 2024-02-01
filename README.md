@@ -16,7 +16,7 @@ This app is a super simple integration with minikube and Springboot with java 21
  - Make sure have Docker installed and running; create local image ``docker build -t simple-k8s . ``
 
 ## Deployment & Testing 
-- At root level use ``kubectl apply -f deployment.yam``
+- At root level use ``kubectl apply -f deployment.yaml``
 - Check for pods and deployments ``kubectl get all``
 - Once *simple-k8s-service* up open tunnel ``minikube service simple-k8s-service`` the output url and */controller*
   to test out. 
